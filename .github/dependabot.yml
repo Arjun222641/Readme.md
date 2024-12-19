@@ -1,0 +1,41 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+"spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.Arjun222641/Readme.md",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/c5c72f40-ab33-40b8-b57e-52ac240b661b",
+  "creationInfo": {
+    "creators": [
+      "Tool: protobom-devel",
+      "Tool: GitHub.com-Dependency-Graph"
+    ],
+    "created": "2024-12-19T19:05:40Z"
+  },
+  "packages": [
+    {
+      "name": "com.github.Arjun222641/Readme.md",
+      "SPDXID": "SPDXRef-github-Arjun222641-Readme.md-main-86f519",
+      "versionInfo": "main",
+      "downloadLocation": "git+https://github.com/Arjun222641/Readme.md",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/Arjun222641/Readme.md@main"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-github-Arjun222641-Readme.md-main-86f519",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
+
